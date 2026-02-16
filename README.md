@@ -5,6 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
 
 Este projeto aplica técnicas de **Machine Learning (Aprendizado Não Supervisionado)** para segmentar clientes de um shopping center com base em seus comportamentos de compra e renda anual. O objetivo é identificar grupos distintos (clusters) para direcionar campanhas de marketing mais eficazes.
+
 ----
 ![Gênero](distribuicao_genero.png)
 
@@ -28,6 +29,8 @@ Os principais objetivos foram:
 2. Determinar o número ideal de clusters.
 3. Interpretar os perfis de cada grupo encontrado.
 
+---
+
 ## 📊 Dataset:
 
 O conjunto de dados utilizado foi o `Mall_Customers.csv`, contendo 200 registros com as seguintes variáveis:
@@ -48,6 +51,8 @@ O projeto foi desenvolvido em **Python** utilizando as seguintes bibliotecas:
 * **Matplotlib & Seaborn**: Visualização de dados (gráficos de dispersão, distribuição, etc.).
 * **Scikit-learn**: Construção do modelo de clusterização (K-Means).
 
+---
+
 ## ⚙️ Metodologia:
 
 1.  **Análise Exploratória de Dados (EDA):**
@@ -61,6 +66,8 @@ O projeto foi desenvolvido em **Python** utilizando as seguintes bibliotecas:
 3.  **Clusterização:**
     * Aplicação do algoritmo **K-Means**.
     * Definição dos grupos de consumidores.
+  
+---
 
 ## 💡 Principais Insights:
 
@@ -73,10 +80,23 @@ Com base na segmentação final, foram identificados perfis estratégicos, como 
 
 *(Os resultados completos e gráficos detalhados estão disponíveis no notebook)*
 
-## 🚀 Como Executar
+---
+
+## 🚀 Como Executar:
 
 1. Clone este repositório:
    ```bash
 
    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/TayschreN/shopping-clients-pandas)
+
+---
+
+## Aprendizado:
+
+Este projeto foi desenvolvido acompanhando a aula disponível neste vídeo: https://youtu.be/iwUli5gIcU0?si=AXtUYrGN_VltteeN.
+Ao longo do projeto, aprofundei meus conhecimentos em conceitos e técnicas importantes 
+Recomendo fortemente para quem deseja evoluir seus estudos em Data Analytics e Pandas.
+
+
+
 
